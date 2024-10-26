@@ -64,8 +64,8 @@ else:
 
 credit_score = int(input("Enter your credit score: "))
 annual_income = int(input("Enter your annual income in dollars: "))
-if credit_score >700:
-    if annual_income >50000:
+if credit_score >=700:
+    if annual_income >=50000:
         print("Loan approved.")
     else:
         print("Income requirement not met.")
