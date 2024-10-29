@@ -7,7 +7,7 @@ days = tuple(days_list)
 print(days)
 
 my_tuple=("age",14,'location',"kiambu",[100,300,500])
-my_tuple[4][1]=1000
+my_tuple[4][1]=100
 print(type(my_tuple))
 
 
