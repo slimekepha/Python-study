@@ -108,7 +108,5 @@ for i in ls1:
     stock=i[1]
     total_quantity+=stock
 
-
-print=(i)
-
+print=(total_quantity)
 
