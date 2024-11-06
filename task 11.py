@@ -23,7 +23,7 @@ if age_month < 0:
     age_year -= 1
     age_month += 12
 
-print(f"You are{age_year}years, {age_month} months, {age_day}days")
+print(f"You are {age_year}years, {age_month} months, {age_day}days")
 
 
 
