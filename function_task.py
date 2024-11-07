@@ -27,6 +27,10 @@ def find_grade(average):
         grade="D-"
     else:
         grade="E"
+        return grade
 
+
+grade=find_grade(total_average)
+print(grade)
 
 
