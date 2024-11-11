@@ -62,3 +62,41 @@ class Rectangle:
 result=Rectangle()
 print(result.area(10,20))
 print(result.perimeter(20,30))
+
+
+
+
+class Employee:
+    def __init__(self,name,salary):
+        self.name=name
+        self.salary=salary
+    
+    def give_raise(self,percentage):
+        self.salary+= self.salary*(percentage/100)
+        return self.salary
+    
+emp_details=Employee('Hazel',60000)
+emp_details.give_raise(10)
+print(f"hello {emp_details.name}, your new salary is {emp_details.salary}")
+
+
+
+
+class Vehicle:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+class Car(Vehicle):
+    def honk(self):
+        return f"{self.brand} {self.model} goes 'Honk honk!'"
+
+class Motorcycle(Vehicle):
+    def rev_engine(self):
+        return f"{self.brand} {self.model} goes 'Vroom vroom!'"
+
+car = Car("Toyota", "Corolla")
+print(car.honk())
+
+motorcycle = Motorcycle("Harley-Davidson", "Sportster")
+print(motorcycle.rev_engine())
