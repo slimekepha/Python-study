@@ -56,3 +56,17 @@ for i in range(7,0,-1):
     for j in range(0,i-1):
         print("*",end='')
     print("")
+
+
+def person(name,age):
+    print(name,age)
+
+person("Hazel",40)
+
+
+
+fruits=["apples","kiwis","bananas","passions","mangoes"]
+fruit_tuple=tuple(fruits)
+fruits.append("avocados")
+print(fruits)
+print(fruit_tuple)
